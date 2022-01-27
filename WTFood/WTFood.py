@@ -4,8 +4,6 @@ import json
 
 client = discord.Client()
 
-token = 'OTM1NTI5MTc1ODExNTEwMzEy.Ye_9cA.7IO7tOSKNvm-N8p1CRYo4AMC-cE'
-
 raw = open('food.json', 'r+')
 food = json.load(raw)
 raw.close()
